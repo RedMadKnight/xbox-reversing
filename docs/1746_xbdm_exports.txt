@@ -1,0 +1,286 @@
+XE_EXPORT(xbdm, 0x00000001, DmAllocatePool, kFunction),
+XE_EXPORT(xbdm, 0x00000002, DmAllocatePoolWithTag, kFunction),
+XE_EXPORT(xbdm, 0x00000003, DmCloseCounters, kFunction),
+XE_EXPORT(xbdm, 0x00000004, DmCloseModuleSections, kFunction),
+XE_EXPORT(xbdm, 0x00000005, DmCloseModuleSections, kFunction),
+XE_EXPORT(xbdm, 0x00000006, DmCloseNotificationSession, kFunction),
+XE_EXPORT(xbdm, 0x00000007, DmClosePerformanceCounter, kFunction),
+XE_EXPORT(xbdm, 0x00000008, DmContinueThread, kFunction),
+XE_EXPORT(xbdm, 0x00000009, DmFreePool, kFunction),
+XE_EXPORT(xbdm, 0x0000000A, DmGetMemory, kFunction),
+XE_EXPORT(xbdm, 0x0000000B, DmGetModuleLongName, kFunction),
+XE_EXPORT(xbdm, 0x0000000C, DmGetProcAddress, kFunction),
+XE_EXPORT(xbdm, 0x0000000D, DmGetThreadContext, kFunction),
+XE_EXPORT(xbdm, 0x0000000F, DmGetThreadList, kFunction),
+XE_EXPORT(xbdm, 0x00000010, DmGetXbeInfo, kFunction),
+XE_EXPORT(xbdm, 0x00000011, DmGetXboxName, kFunction),
+XE_EXPORT(xbdm, 0x00000013, DmGo, kFunction),
+XE_EXPORT(xbdm, 0x00000014, DmHaltThread, kFunction),
+XE_EXPORT(xbdm, 0x00000015, DmIsDebuggerPresent, kFunction),
+XE_EXPORT(xbdm, 0x00000016, DmIsThreadStopped, kFunction),
+XE_EXPORT(xbdm, 0x00000017, DmLoadExtension, kFunction),
+XE_EXPORT(xbdm, 0x00000018, DmNotify, kFunction),
+XE_EXPORT(xbdm, 0x00000019, DmOpenNotificationSession, kFunction),
+XE_EXPORT(xbdm, 0x0000001A, DmOpenPerformanceCounter, kFunction),
+XE_EXPORT(xbdm, 0x0000001B, DmQueryPerformanceCounterHandle, kFunction),
+XE_EXPORT(xbdm, 0x0000001C, DmReboot, kFunction),
+XE_EXPORT(xbdm, 0x0000001E, DmRegisterCommandProcessor, kFunction),
+XE_EXPORT(xbdm, 0x00000020, DmRegisterNotificationProcessor, kFunction),
+XE_EXPORT(xbdm, 0x00000021, DmRegisterPerformanceCounter, kFunction),
+XE_EXPORT(xbdm, 0x00000022, DmRemoveBreakpoint, kFunction),
+XE_EXPORT(xbdm, 0x00000023, DmResumeThread, kFunction),
+XE_EXPORT(xbdm, 0x00000024, DmSendNotificationString, kFunction),
+XE_EXPORT(xbdm, 0x00000025, DmSetBreakpoint, kFunction),
+XE_EXPORT(xbdm, 0x00000026, DmSetDataBreakpoint, kFunction),
+XE_EXPORT(xbdm, 0x00000027, DmSetInitialBreakpoint, kFunction),
+XE_EXPORT(xbdm, 0x00000028, DmSetMemory, kFunction),
+XE_EXPORT(xbdm, 0x00000029, DmSetThreadContext, kFunction),
+XE_EXPORT(xbdm, 0x0000002A, DmSetTitle, kFunction),
+XE_EXPORT(xbdm, 0x0000002B, DmSetXboxName, kFunction),
+XE_EXPORT(xbdm, 0x0000002D, DmStop, kFunction),
+XE_EXPORT(xbdm, 0x0000002E, DmStopOn, kFunction),
+XE_EXPORT(xbdm, 0x00000030, DmSuspendThread, kFunction),
+XE_EXPORT(xbdm, 0x00000031, DmThreadUserData, kFunction),
+XE_EXPORT(xbdm, 0x00000032, DmUnloadExtension, kFunction),
+XE_EXPORT(xbdm, 0x00000033, DmWalkLoadedModules, kFunction),
+XE_EXPORT(xbdm, 0x00000034, DmWalkModuleSections, kFunction),
+XE_EXPORT(xbdm, 0x00000035, DmWalkPerformanceCounters, kFunction),
+XE_EXPORT(xbdm, 0x00000037, DmCloseCounters, kFunction),
+XE_EXPORT(xbdm, 0x00000038, DmIsBreakpoint, kFunction),
+XE_EXPORT(xbdm, 0x00000039, DmCloseCounters, kFunction),
+XE_EXPORT(xbdm, 0x0000003A, DmSetUserAccess, kFunction),
+XE_EXPORT(xbdm, 0x0000003B, DmGetUserAccess, kFunction),
+XE_EXPORT(xbdm, 0x0000003C, DmWalkUserList, kFunction),
+XE_EXPORT(xbdm, 0x0000003D, DmAddUser, kFunction),
+XE_EXPORT(xbdm, 0x0000003E, DmEnableSecurity, kFunction),
+XE_EXPORT(xbdm, 0x0000003F, DmIsSecurityEnabled, kFunction),
+XE_EXPORT(xbdm, 0x00000040, DmRemoveUser, kFunction),
+XE_EXPORT(xbdm, 0x00000041, __CAP_Start_Profiling, kFunction),
+XE_EXPORT(xbdm, 0x00000042, __CAP_End_Profiling, kFunction),
+XE_EXPORT(xbdm, 0x00000046, __CAP_Enter_Function, kFunction),
+XE_EXPORT(xbdm, 0x00000047, __CAP_Exit_Function, kFunction),
+XE_EXPORT(xbdm, 0x00000048, DmRegisterCommandProcessorEx, kFunction),
+XE_EXPORT(xbdm, 0x00000049, DmStartProfiling, kFunction),
+XE_EXPORT(xbdm, 0x0000004A, DmStopProfiling, kFunction),
+XE_EXPORT(xbdm, 0x0000004B, DmQueryMemoryStatistics, kFunction),
+XE_EXPORT(xbdm, 0x0000004C, DmEnableStackTrace, kFunction),
+XE_EXPORT(xbdm, 0x0000004D, DmQueryAllocationTypeName, kFunction),
+XE_EXPORT(xbdm, 0x0000004E, DmRegisterAllocationType, kFunction),
+XE_EXPORT(xbdm, 0x0000004F, DmInsertAllocationEntry, kFunction),
+XE_EXPORT(xbdm, 0x00000050, DmRemoveAllocationEntry, kFunction),
+XE_EXPORT(xbdm, 0x00000051, DmSetTitleEx, kFunction),
+XE_EXPORT(xbdm, 0x00000052, DmCaptureStackBackTrace, kFunction),
+XE_EXPORT(xbdm, 0x00000053, DmCrashDump, kFunction),
+XE_EXPORT(xbdm, 0x00000054, DmIsFastCAPEnabled, kFunction),
+XE_EXPORT(xbdm, 0x00000055, DmGetFileAccessCount, kFunction),
+XE_EXPORT(xbdm, 0x00000058, HrGetUtilityDriveInfo, kFunction),
+XE_EXPORT(xbdm, 0x00000059, DmGetThreadInfoEx, kFunction),
+XE_EXPORT(xbdm, 0x0000005A, DmSetProfilingOptions, kFunction),
+XE_EXPORT(xbdm, 0x0000005B, DmQuerySystemSettings, kFunction),
+XE_EXPORT(xbdm, 0x0000005C, DmSaveSystemSettings, kFunction),
+XE_EXPORT(xbdm, 0x0000006A, DmpGetPgoModuleHandleForBaseAddress, kFunction),
+XE_EXPORT(xbdm, 0x0000006B, DmpOnPgoModuleLoad, kFunction),
+XE_EXPORT(xbdm, 0x0000006C, DmPgoStartDataCollection, kFunction),
+XE_EXPORT(xbdm, 0x0000006D, DmPgoStopDataCollection, kFunction),
+XE_EXPORT(xbdm, 0x0000006E, DmPgoSaveSnapshot, kFunction),
+XE_EXPORT(xbdm, 0x0000006F, IrtClientAbort, kFunction),
+XE_EXPORT(xbdm, 0x00000070, IrtPogoInit, kFunction),
+XE_EXPORT(xbdm, 0x00000071, IrtSetStaticInfo, kFunction),
+XE_EXPORT(xbdm, 0x00000072, IrtAutoSweepW, kFunction),
+XE_EXPORT(xbdm, 0x00000073, IrtAutoSweepA, kFunction),
+XE_EXPORT(xbdm, 0x00000075, DmGetDumpMode, kFunction),
+XE_EXPORT(xbdm, 0x00000076, DmSetDumpMode, kFunction),
+XE_EXPORT(xbdm, 0x00000077, DmGetDumpSettings, kFunction),
+XE_EXPORT(xbdm, 0x00000078, DmSetDumpSettings, kFunction),
+XE_EXPORT(xbdm, 0x00000079, DmGetEventDeferFlags, kFunction),
+XE_EXPORT(xbdm, 0x0000007A, DmSetEventDeferFlags, kFunction),
+XE_EXPORT(xbdm, 0x0000007B, DmWalkCommittedMemory, kFunction),
+XE_EXPORT(xbdm, 0x0000007C, DmCloseCounters, kFunction),
+XE_EXPORT(xbdm, 0x0000007D, DmRebootEx, kFunction),
+XE_EXPORT(xbdm, 0x0000007E, ?PEPLELookup@@YIPAUEPLE@@PAUPGCHDR@@PAUEPLH@@K@Z, kFunction),
+XE_EXPORT(xbdm, 0x0000007F, ?PVPLELookup@@YIPA_KPAUPGCHDR@@PAUVPLH@@_K@Z, kFunction),
+XE_EXPORT(xbdm, 0x00000080, ?PVPLETemplatedLookup@@YIPA_KPAUPGCHDR@@PAUVPLH@@_KPAUtagPOGOVALUETEMPLATE@@@Z, kFunction),
+XE_EXPORT(xbdm, 0x00000081, ?PVPLEFilteredLookup@@YIPA_KPAUPGCHDR@@PAUVPLH@@_K@Z, kFunction),
+XE_EXPORT(xbdm, 0x00000082, DmMountFdfxVolume, kFunction),
+XE_EXPORT(xbdm, 0x100128E0, DmDllMain, kFunction),
+Unloading IDP module C:\Program Files\IDA 7.0\procs\ppc.dll...
+Possible file format: MS-DOS executable (EXE) (C:\Program Files\IDA 7.0\loaders\dos.dll)
+Possible file format: Portable executable for PPC BE (PE) (C:\Program Files\IDA 7.0\loaders\pe.dll)
+
+  bytes   pages size description
+--------- ----- ---- --------------------------------------------
+  1302528   159 8192 allocating memory for b-tree...
+  1302528   159 8192 allocating memory for virtual array...
+   262144    32 8192 allocating memory for name pointers...
+-----------------------------------------------------------------
+  2867200            total memory allocated
+
+Loading file 'C:\AlphaKit\0431\1838 August 2005 Preview\xdksetupxenon1838.1.exe_ext\common\XDK\bin\xbox\symsrv\xbdm.dll\42C5313854e80\xbdm.dll' into database...
+Detected file format: Portable executable for PPC BE (PE)
+Loading processor module C:\Program Files\IDA 7.0\procs\ppc.dll for ppc...OK
+Autoanalysis subsystem has been initialized.
+Assuming __cdecl calling convention by default
+  0. Creating a new segment  (10000380-10009380) ... ... OK
+  1. Creating a new segment  (10008900-1000A900) ... ... OK
+  2. Creating a new segment  (1000A000-10032000) ... ... OK
+  3. Creating a new segment  (10032000-1004A000) ... ... OK
+  4. Creating a new segment  (1004B000-1004C000) ... ... OK
+Reading exports directory...
+Reading imports directory...
+Applying fixups...
+53424B52: unknown fixup type 0xd is ignored
+53424B52: unknown fixup type 0xd is ignored
+53424B52: unknown fixup type 0xd is ignored
+53424BA4: unknown fixup type 0x5 is ignored
+53424B52: unknown fixup type 0xd is ignored
+5C4E5451: unknown fixup type 0xd is ignored
+5C4E524B: unknown fixup type 0x8 is ignored
+4ED83ED0: unknown fixup type 0x9 is ignored
+4ED83ED0: unknown fixup type 0xa is ignored
+4ED83ED0: unknown fixup type 0xb is ignored
+4ED83ED0: unknown fixup type 0xc is ignored
+4ED83ED0: unknown fixup type 0xd is ignored
+4ED83ED0: unknown fixup type 0xe is ignored
+4ED83ED0: unknown fixup type 0xf is ignored
+4ED83ED0: unknown fixup type 0x5 is ignored
+4ED83ED0: unknown fixup type 0x8 is ignored
+4ED83ED0: unknown fixup type 0x9 is ignored
+4ED83ED0: unknown fixup type 0xa is ignored
+4ED83ED0: unknown fixup type 0xb is ignored
+4ED83ED0: unknown fixup type 0xc is ignored
+4ED83ED0: unknown fixup type 0xd is ignored
+4ED83ED0: unknown fixup type 0xe is ignored
+4ED83ED0: unknown fixup type 0xf is ignored
+4ED83ED0: unknown fixup type 0x5 is ignored
+4ED83ED0: unknown fixup type 0x8 is ignored
+4ED83ED0: unknown fixup type 0x9 is ignored
+4ED83ED0: unknown fixup type 0xa is ignored
+4ED83ED0: unknown fixup type 0xb is ignored
+4ED83ED0: unknown fixup type 0xc is ignored
+4ED83ED0: unknown fixup type 0xd is ignored
+4ED83ED0: unknown fixup type 0xe is ignored
+4ED83ED0: unknown fixup type 0xf is ignored
+4ED83ED0: unknown fixup type 0x5 is ignored
+  5. Creating a new segment  (10000624-10008900) ... ... OK
+Unknown debug info type 228 in IMAGE_DEBUG_DIRECTORY
+Flushing buffers, please wait...ok
+File 'C:\AlphaKit\0431\1838 August 2005 Preview\xdksetupxenon1838.1.exe_ext\common\XDK\bin\xbox\symsrv\xbdm.dll\42C5313854e80\xbdm.dll' has been successfully loaded into the database.
+IDA is analysing the input file...
+You may start to explore the input file right now.
+Using sleigh id: PowerPC:BE:64:A2ALT-32addr
+Ghidra architecture successfully created
+---------------------------------------------------------------------------------------
+Python 2.7.18 (v2.7.18:8d21aa21f2, Apr 20 2020, 13:25:05) [MSC v.1500 64 bit (AMD64)] 
+IDAPython v1.7.0 final (serial 0) (c) The IDAPython Team <idapython@googlegroups.com>
+---------------------------------------------------------------------------------------
+PDB: using DIA dll "C:\Program Files\Common Files\Microsoft Shared\VC\msdia90.dll"
+PDB: DIA interface version 9.0
+PDB: using load address 10000000
+PDB: loaded 0 types
+PDB: total 1283 symbols loaded for C:\AlphaKit\0431\1838 August 2005 Preview\xdksetupxenon1838.1.exe_ext\common\XDK\bin\xbox\symsrv\xbdm.dll\42C5313854e80\xbdm.pdb
+Propagating type information...
+Function argument information has been propagated
+The initial autoanalysis has been finished.
+XE_EXPORT(xbdm, 0x00000001, DmAllocatePool, kFunction),
+XE_EXPORT(xbdm, 0x00000002, DmAllocatePoolWithTag, kFunction),
+XE_EXPORT(xbdm, 0x00000003, DmCloseCounters, kFunction),
+XE_EXPORT(xbdm, 0x00000004, DmCloseModuleSections, kFunction),
+XE_EXPORT(xbdm, 0x00000005, DmCloseModuleSections, kFunction),
+XE_EXPORT(xbdm, 0x00000006, DmCloseNotificationSession, kFunction),
+XE_EXPORT(xbdm, 0x00000007, DmClosePerformanceCounter, kFunction),
+XE_EXPORT(xbdm, 0x00000008, DmContinueThread, kFunction),
+XE_EXPORT(xbdm, 0x00000009, DmFreePool, kFunction),
+XE_EXPORT(xbdm, 0x0000000A, DmGetMemory, kFunction),
+XE_EXPORT(xbdm, 0x0000000B, DmGetModuleLongName, kFunction),
+XE_EXPORT(xbdm, 0x0000000C, DmGetProcAddress, kFunction),
+XE_EXPORT(xbdm, 0x0000000D, DmGetThreadContext, kFunction),
+XE_EXPORT(xbdm, 0x0000000F, DmGetThreadList, kFunction),
+XE_EXPORT(xbdm, 0x00000010, DmGetXbeInfo, kFunction),
+XE_EXPORT(xbdm, 0x00000011, DmGetXboxName, kFunction),
+XE_EXPORT(xbdm, 0x00000013, DmGo, kFunction),
+XE_EXPORT(xbdm, 0x00000014, DmHaltThread, kFunction),
+XE_EXPORT(xbdm, 0x00000015, DmIsDebuggerPresent, kFunction),
+XE_EXPORT(xbdm, 0x00000016, DmIsThreadStopped, kFunction),
+XE_EXPORT(xbdm, 0x00000017, DmLoadExtension, kFunction),
+XE_EXPORT(xbdm, 0x00000018, DmNotify, kFunction),
+XE_EXPORT(xbdm, 0x00000019, DmOpenNotificationSession, kFunction),
+XE_EXPORT(xbdm, 0x0000001A, DmOpenPerformanceCounter, kFunction),
+XE_EXPORT(xbdm, 0x0000001B, DmQueryPerformanceCounterHandle, kFunction),
+XE_EXPORT(xbdm, 0x0000001C, DmReboot, kFunction),
+XE_EXPORT(xbdm, 0x0000001E, DmRegisterCommandProcessor, kFunction),
+XE_EXPORT(xbdm, 0x00000020, DmRegisterNotificationProcessor, kFunction),
+XE_EXPORT(xbdm, 0x00000021, DmRegisterPerformanceCounter, kFunction),
+XE_EXPORT(xbdm, 0x00000022, DmRemoveBreakpoint, kFunction),
+XE_EXPORT(xbdm, 0x00000023, DmResumeThread, kFunction),
+XE_EXPORT(xbdm, 0x00000024, DmSendNotificationString, kFunction),
+XE_EXPORT(xbdm, 0x00000025, DmSetBreakpoint, kFunction),
+XE_EXPORT(xbdm, 0x00000026, DmSetDataBreakpoint, kFunction),
+XE_EXPORT(xbdm, 0x00000027, DmSetInitialBreakpoint, kFunction),
+XE_EXPORT(xbdm, 0x00000028, DmSetMemory, kFunction),
+XE_EXPORT(xbdm, 0x00000029, DmSetThreadContext, kFunction),
+XE_EXPORT(xbdm, 0x0000002A, DmSetTitle, kFunction),
+XE_EXPORT(xbdm, 0x0000002B, DmSetXboxName, kFunction),
+XE_EXPORT(xbdm, 0x0000002D, DmStop, kFunction),
+XE_EXPORT(xbdm, 0x0000002E, DmStopOn, kFunction),
+XE_EXPORT(xbdm, 0x00000030, DmSuspendThread, kFunction),
+XE_EXPORT(xbdm, 0x00000031, DmThreadUserData, kFunction),
+XE_EXPORT(xbdm, 0x00000032, DmUnloadExtension, kFunction),
+XE_EXPORT(xbdm, 0x00000033, DmWalkLoadedModules, kFunction),
+XE_EXPORT(xbdm, 0x00000034, DmWalkModuleSections, kFunction),
+XE_EXPORT(xbdm, 0x00000035, DmWalkPerformanceCounters, kFunction),
+XE_EXPORT(xbdm, 0x00000037, DmCloseCounters, kFunction),
+XE_EXPORT(xbdm, 0x00000038, DmIsBreakpoint, kFunction),
+XE_EXPORT(xbdm, 0x00000039, DmCloseCounters, kFunction),
+XE_EXPORT(xbdm, 0x0000003A, DmSetUserAccess, kFunction),
+XE_EXPORT(xbdm, 0x0000003B, DmGetUserAccess, kFunction),
+XE_EXPORT(xbdm, 0x0000003C, DmWalkUserList, kFunction),
+XE_EXPORT(xbdm, 0x0000003D, DmAddUser, kFunction),
+XE_EXPORT(xbdm, 0x0000003E, DmEnableSecurity, kFunction),
+XE_EXPORT(xbdm, 0x0000003F, DmIsSecurityEnabled, kFunction),
+XE_EXPORT(xbdm, 0x00000040, DmRemoveUser, kFunction),
+XE_EXPORT(xbdm, 0x00000041, __CAP_Start_Profiling, kFunction),
+XE_EXPORT(xbdm, 0x00000042, __CAP_End_Profiling, kFunction),
+XE_EXPORT(xbdm, 0x00000046, __CAP_Enter_Function, kFunction),
+XE_EXPORT(xbdm, 0x00000047, __CAP_Exit_Function, kFunction),
+XE_EXPORT(xbdm, 0x00000048, DmRegisterCommandProcessorEx, kFunction),
+XE_EXPORT(xbdm, 0x00000049, DmStartProfiling, kFunction),
+XE_EXPORT(xbdm, 0x0000004A, DmStopProfiling, kFunction),
+XE_EXPORT(xbdm, 0x0000004B, DmQueryMemoryStatistics, kFunction),
+XE_EXPORT(xbdm, 0x0000004C, DmEnableStackTrace, kFunction),
+XE_EXPORT(xbdm, 0x0000004D, DmQueryAllocationTypeName, kFunction),
+XE_EXPORT(xbdm, 0x0000004E, DmRegisterAllocationType, kFunction),
+XE_EXPORT(xbdm, 0x0000004F, DmInsertAllocationEntry, kFunction),
+XE_EXPORT(xbdm, 0x00000050, DmRemoveAllocationEntry, kFunction),
+XE_EXPORT(xbdm, 0x00000051, DmSetTitleEx, kFunction),
+XE_EXPORT(xbdm, 0x00000052, DmCaptureStackBackTrace, kFunction),
+XE_EXPORT(xbdm, 0x00000053, DmCrashDump, kFunction),
+XE_EXPORT(xbdm, 0x00000054, DmIsFastCAPEnabled, kFunction),
+XE_EXPORT(xbdm, 0x00000055, DmGetFileAccessCount, kFunction),
+XE_EXPORT(xbdm, 0x00000058, HrGetUtilityDriveInfo, kFunction),
+XE_EXPORT(xbdm, 0x00000059, DmGetThreadInfoEx, kFunction),
+XE_EXPORT(xbdm, 0x0000005A, DmSetProfilingOptions, kFunction),
+XE_EXPORT(xbdm, 0x0000005B, DmQuerySystemSettings, kFunction),
+XE_EXPORT(xbdm, 0x0000005C, DmSaveSystemSettings, kFunction),
+XE_EXPORT(xbdm, 0x0000006A, DmpGetPgoModuleHandleForBaseAddress, kFunction),
+XE_EXPORT(xbdm, 0x0000006B, DmpOnPgoModuleLoad, kFunction),
+XE_EXPORT(xbdm, 0x0000006C, DmPgoStartDataCollection, kFunction),
+XE_EXPORT(xbdm, 0x0000006D, DmPgoStopDataCollection, kFunction),
+XE_EXPORT(xbdm, 0x0000006E, DmPgoSaveSnapshot, kFunction),
+XE_EXPORT(xbdm, 0x0000006F, IrtClientAbort, kFunction),
+XE_EXPORT(xbdm, 0x00000070, IrtPogoInit, kFunction),
+XE_EXPORT(xbdm, 0x00000071, IrtSetStaticInfo, kFunction),
+XE_EXPORT(xbdm, 0x00000072, IrtAutoSweepW, kFunction),
+XE_EXPORT(xbdm, 0x00000073, IrtAutoSweepA, kFunction),
+XE_EXPORT(xbdm, 0x00000075, DmGetDumpMode, kFunction),
+XE_EXPORT(xbdm, 0x00000076, DmSetDumpMode, kFunction),
+XE_EXPORT(xbdm, 0x00000077, DmGetDumpSettings, kFunction),
+XE_EXPORT(xbdm, 0x00000078, DmSetDumpSettings, kFunction),
+XE_EXPORT(xbdm, 0x00000079, DmGetEventDeferFlags, kFunction),
+XE_EXPORT(xbdm, 0x0000007A, DmSetEventDeferFlags, kFunction),
+XE_EXPORT(xbdm, 0x0000007B, DmWalkCommittedMemory, kFunction),
+XE_EXPORT(xbdm, 0x0000007C, DmCloseCounters, kFunction),
+XE_EXPORT(xbdm, 0x0000007D, DmRebootEx, kFunction),
+XE_EXPORT(xbdm, 0x0000007E, ?PEPLELookup@@YIPAUEPLE@@PAUPGCHDR@@PAUEPLH@@K@Z, kFunction),
+XE_EXPORT(xbdm, 0x0000007F, ?PVPLELookup@@YIPA_KPAUPGCHDR@@PAUVPLH@@_K@Z, kFunction),
+XE_EXPORT(xbdm, 0x00000080, ?PVPLETemplatedLookup@@YIPA_KPAUPGCHDR@@PAUVPLH@@_KPAUtagPOGOVALUETEMPLATE@@@Z, kFunction),
+XE_EXPORT(xbdm, 0x00000081, ?PVPLEFilteredLookup@@YIPA_KPAUPGCHDR@@PAUVPLH@@_K@Z, kFunction),
